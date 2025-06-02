@@ -1,0 +1,101 @@
+.hero {
+  background: linear-gradient(to bottom, #dc86b5, #eeb9cd);
+  height: 350px;
+  position: relative;
+  color: white;
+  padding: 30px 50px;
+}
+
+.hero-section {
+  position: relative;
+  background-color: #e7b1c8; /* warna latar pink muda sesuai desain */
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero-blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  pointer-events: none;
+  height: 280px; /* sesuaikan agar tinggi blob tidak memenuhi layar */
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1; /* pastikan konten muncul di atas blob */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.navbar {
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.filter-tag {
+  padding: 8px 12px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.filter-tag:hover {
+  background-color: #f0f0f0;
+  border-color: #b20059;
+  color: #b20059;
+}
+
+
+
+
+body, .home {
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+
+.hero-image {
+  position: relative;
+  top: 35px;         /* turunkan gambarnya agar menyentuh pink blob */
+  height: 220px;
+  margin-left: 60px;
+  z-index: 1;
+}
+
+.hero-image2 {
+  position: relative;
+  top: 35px;         /* turunkan gambarnya agar menyentuh pink blob */
+  height: 220px;
+  margin-left: 60px;
+  z-index: 1;
+}
+
+.tagline {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.events-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 40px auto;
+  max-width: 1000px;
+}

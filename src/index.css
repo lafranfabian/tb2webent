@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.activity-section {
+  padding: 2rem 4rem;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.activity-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

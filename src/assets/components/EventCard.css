@@ -1,0 +1,32 @@
+.event-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 0 transparent;
+  transition: all 0.2s ease-in-out;
+  background-color: white;
+}
+
+.event-card:hover {
+  box-shadow: 0px 6px 16px rgba(0,0,0,0.1);
+}
+
+.event-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.event-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-footer button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 8px;
+}

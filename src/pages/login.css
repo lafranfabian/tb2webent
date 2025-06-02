@@ -1,0 +1,94 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  background-color: #fdf0f5;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #e7b1c8;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.login-text {
+  text-align: center;
+  z-index: 2;
+}
+
+.login-subtitle {
+  font-family: 'Konkhmer Sleokchher', cursive;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.login-title {
+  font-family: 'Lilita One', cursive;
+  font-size: 42px;
+  color: white;
+  font-weight: bold;
+}
+
+.login-image-left,
+.login-image-right {
+  position: absolute;
+  bottom: 0;
+  height: 180px;
+  z-index: 1;
+}
+
+.login-image-left {
+  left: 0;
+}
+
+.login-image-right {
+  right: 0;
+}
+
+.flipped {
+  transform: scaleX(-1);
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.login-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.login-button {
+  background-color: #cc4b82;
+  color: white;
+  font-size: 18px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signup-text {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.signup-link {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  position: relative; /* pastikan tidak tertutup elemen lain */
+  z-index: 10;
+}

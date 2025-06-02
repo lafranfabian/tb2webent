@@ -1,0 +1,34 @@
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+.login-btn {
+  display: inline-block;
+  padding: 6px 30px;           /* Lebih kecil dari sebelumnya */
+  background-color: #fff;      /* Latar putih */
+  color: #000 !important;      /* Teks hitam */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;         /* Membulatkan ujung */
+  font-size: 14px;             /* Ukuran font lebih kecil */
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid #ccc;      /* Tambah border agar tombol tetap terlihat */
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #f0f0f0;   /* Efek hover halus */
+}
