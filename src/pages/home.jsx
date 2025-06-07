@@ -5,6 +5,7 @@ import EventCard from '../assets/components/EventCard';
 import CommunityGrid from '../assets/components/CommunityGrid';
 import ActivityCard from '../assets/components/ActivityCard';
 import supabase from '../supabase/client';
+import TestimonialSection from '../assets/components/TestimonialSection';
 import './home.css';
 
 export default function Home() {
@@ -35,8 +36,9 @@ export default function Home() {
             <h2 style={{ color: 'white', fontWeight: '400' }}>
               Make Your Game More Fun And Competitive
             </h2>
+            <div className='sporthive-brand'>
             <h1 style={{ color: 'white', fontWeight: '800' }}>SportHive</h1>
-          </div>
+          </div></div>
           <img
             src="../src/assets/3.png"
             alt="Hero Character"
@@ -65,6 +67,7 @@ export default function Home() {
 
       {/* Community Section */}
       <CommunityGrid />
+      <TestimonialSection />
     </div>
   );
 }

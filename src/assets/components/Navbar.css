@@ -7,6 +7,15 @@
   gap: 20px;
 }
 
+body {
+  font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.sporthive-brand {
+  font-family: 'Lilita One', cursive;
+}
+
+
 .menu a {
   color: white;
   font-weight: bold;

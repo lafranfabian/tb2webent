@@ -13,6 +13,10 @@
   overflow: hidden;
 }
 
+.sporthive-brand {
+  font-family: 'Lilita One', cursive;
+}
+
 .hero-blob {
   position: absolute;
   top: 0;
